@@ -1,0 +1,56 @@
+@prefix : <http://example.org/smartobject#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix foi: <http://www.featureOfInterest.org/example#>.
+@prefix http: <http://www.w3.org/2011/http#>.
+					
+:Fan a dbpedia:Fan;
+	foi:hasFOI	dbpedia:Temperature;
+	foi:FOIGenerated	dbpedia:Cold;
+	foi:effectOnFOI "<";
+	foi:hasMethod "GET";
+	foi:hasMethod "SET";
+	foi:hasMethod "SWITCH".
+
+:Heater a dbpedia:Heater;
+	foi:hasFOI dbpedia:Temperature;
+	foi:FOIGenerated dbpedia:Hot;
+	foi:effectOnFOI ">";
+	foi:hasMethod "GET";
+	foi:hasMethod "SET";
+	foi:hasMethod "SWITCH".
+	
+:AirConditionator a dbpedia:AirConditionator;
+	foi:hasFOI dbpedia:Temperature;
+	foi:FOIGenerated dbpedia:Hot;
+	foi:FOIGenerated dbpedia:Cold;
+	foi:FOIMisurated dbpedia:Temperature;
+	foi:effectOnFOI "<";
+	foi:effectOnFOI ">";
+	foi:hasMethod "GET";
+	foi:hasMethod "SET";
+	foi:hasMethod "SWITCH".
+	
+:Thermometer a dbpedia:Thermometer;
+	foi:hasFOI dbpedia:Temperature;
+	foi:FOIMisurated dbpedia:Temperature;
+	foi:hasMethod "GET".
+	
+:SmartTV a dbpedia:SmartTV;
+	foi:hasFOI	dbpedia:Entertainment;
+	foi:FOIGenerated dbpedia:Video;
+	foi:FOIGenerated dbpedia:Audio;
+	foi:effectOnFOI ">";
+	foi:hasMethod "GET";
+	foi:hasMethod "SWITCH".
+	
+:Stereo a dbpedia:Stereo;
+	foi:hasFOI	dbpedia:Entertainment;
+	foi:FOIGenerated dbpedia:Audio;
+	foi:effectOnFOI ">";
+	foi:hasMethod "GET";
+	foi:hasMethod "SET";
+	foi:hasMethod "SWITCH".
+	
+dbpedia:Hot foi:effectOnFOI ">".
+dbpedia:Cold foi:effectOnFOI "<".
+	

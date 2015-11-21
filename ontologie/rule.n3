@@ -1,0 +1,14 @@
+@prefix : <http://example.org/smartobject#>.
+
+{
+	?myObject :isA ?class. 
+	?class ?predicate ?feature.
+}
+=>
+{
+	?myObject a ?class. 
+	?myObject ?predicate ?feature.
+}.
+
+#Se un oggetto è di una data classe, 
+#allora ne eredita le caratteristiche!

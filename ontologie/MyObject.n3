@@ -1,0 +1,39 @@
+@prefix : <http://example.org/smartobject#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix foi: <http://www.featureOfInterest.org/example#>.
+					
+
+:MyFAN :isA :Fan;
+	:isIn :LivingRoom;
+	:hasUrl 'http://localhost:3003/MyFan';
+	:hasGuid 'DD3ACED8-B6F0-4A20-9A9B-CA5972FC9086'.
+	
+:MyAirCond :isA :AirConditionator;
+	:isIn :LivingRoom;
+	:hasUrl 'http://localhost:3003/MyAirCond';
+	:hasGuid '29EBD4E6-54B7-4EFA-B843-ED57BEFA4669'.
+	
+:MySmartTV1 :isA :SmartTV;
+	:isIn :LivingRoom;
+	:hasUrl 'http://localhost:3003/MySmartTV1';
+	:hasGuid 'FDC74BA9-18CB-42D3-B6C0-52446422CE03'.
+	
+:MySmartTV2 :isA :SmartTV;
+	:isIn :Kitchen;
+	:hasUrl 'http://localhost:3003/MySmartTV2';
+	:hasGuid 'FF77833D-8E52-460D-835D-29ABD1AD7DF9'.
+	
+:MyHeater :isA :Heater;
+	:isIn :Kitchen;
+	:hasUrl 'http://localhost:3003/MyHeater';
+	:hasGuid 'C5A498CD-DC61-41E7-BD01-C3680AB83D12'.
+	
+:MyThermometer :isA :Thermometer;
+	:isIn :Kitchen;
+	:hasUrl 'http://localhost:3003/MyThermometer';
+	:hasGuid 'DB5DA376-87D0-4AEC-8BF2-4400A83E401F'.
+	
+:MyStereo :isA :Stereo;
+	:isIn :LivingRoom;
+	:hasUrl 'http://localhost:3003/MyStereo';
+	:hasGuid '8AE2FEB4-7D9F-4133-BCA9-9AF448B2E195'.
