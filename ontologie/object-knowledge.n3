@@ -3,56 +3,56 @@
 @prefix foi: <http://www.featureOfInterest.org/example#>.
 @prefix http: <http://www.w3.org/2011/http#>.
 					
-:Fan a dbpedia:Fan;
-	foi:hasFOI	dbpedia:Temperature;
-	foi:FOIGenerated	dbpedia:Cold;
+:fan a dbpedia:Fan;
+	foi:hasFOI	dbpedia:temperature;
+	foi:FOIGenerated	dbpedia:cold;
 	foi:effectOnFOI "<";
 	foi:hasMethod "GET";
 	foi:hasMethod "SET";
 	foi:hasMethod "SWITCH".
 
-:Heater a dbpedia:Heater;
-	foi:hasFOI dbpedia:Temperature;
-	foi:FOIGenerated dbpedia:Hot;
+:heater a dbpedia:Heater;
+	foi:hasFOI dbpedia:temperature;
+	foi:FOIGenerated dbpedia:hot;
 	foi:effectOnFOI ">";
 	foi:hasMethod "GET";
 	foi:hasMethod "SET";
 	foi:hasMethod "SWITCH".
 	
-:AirConditionator a dbpedia:AirConditionator;
-	foi:hasFOI dbpedia:Temperature;
-	foi:FOIGenerated dbpedia:Hot;
-	foi:FOIGenerated dbpedia:Cold;
-	foi:FOIMisurated dbpedia:Temperature;
+:airconditionator a dbpedia:AirConditionator;
+	foi:hasFOI dbpedia:temperature;
+	foi:FOIGenerated dbpedia:hot;
+	foi:FOIGenerated dbpedia:cold;
+	foi:FOIMisurated dbpedia:temperature;
 	foi:effectOnFOI "<";
 	foi:effectOnFOI ">";
 	foi:hasMethod "GET";
 	foi:hasMethod "SET";
 	foi:hasMethod "SWITCH".
 	
-:Thermometer a dbpedia:Thermometer;
-	foi:hasFOI dbpedia:Temperature;
-	foi:FOIMisurated dbpedia:Temperature;
+:thermometer a dbpedia:Thermometer;
+	foi:hasFOI dbpedia:temperature;
+	foi:FOIMisurated dbpedia:temperature;
 	foi:hasMethod "GET".
 	
-:SmartTV a dbpedia:SmartTV;
-	foi:hasFOI	dbpedia:Entertainment;
-	foi:FOIGenerated dbpedia:Video;
-	foi:FOIGenerated dbpedia:Audio;
+:smarttv a dbpedia:SmartTV;
+	foi:hasFOI	dbpedia:entertainment;
+	foi:FOIGenerated dbpedia:video;
+	foi:FOIGenerated dbpedia:audio;
 	foi:effectOnFOI ">";
 	foi:hasMethod "GET";
 	foi:hasMethod "SWITCH".
 	
-:Stereo a dbpedia:Stereo;
-	foi:hasFOI	dbpedia:Entertainment;
-	foi:FOIGenerated dbpedia:Audio;
+:stereo a dbpedia:Stereo;
+	foi:hasFOI	dbpedia:entertainment;
+	foi:FOIGenerated dbpedia:audio;
 	foi:effectOnFOI ">";
 	foi:hasMethod "GET";
 	foi:hasMethod "SET";
 	foi:hasMethod "SWITCH".
 	
-:Light a dbpedia:Light;
-	foi:hasFOI dbpedia:Light;
+:light a dbpedia:Light;
+	foi:hasFOI dbpedia:light;
 	foi:hasMethod "GET";
 	foi:hasMethod "SWITCH".
 	
