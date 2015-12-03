@@ -12,3 +12,4 @@ This module receive query in N3 format and returns a json that satisfies the que
 
 It requires Node.js, Mongo DB and EYE installed. 
 Install the system with command npm install. 
+Run the system with command "node server".
