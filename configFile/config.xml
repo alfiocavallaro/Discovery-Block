@@ -1,123 +1,68 @@
-<?xml version="1.0"?>
-<catalog>
-   <book id="bk101">
-      <author>Gambardella, Matthew</author>
-      <title>XML Developer's Guide</title>
-      <genre>Computer</genre>
-      <price>44.95</price>
-      <publish_date>2000-10-01</publish_date>
-      <description>An in-depth look at creating applications 
-      with XML.</description>
-   </book>
-   <book id="bk102">
-      <author>Ralls, Kim</author>
-      <title>Midnight Rain</title>
-      <genre>Fantasy</genre>
-      <price>5.95</price>
-      <publish_date>2000-12-16</publish_date>
-      <description>A former architect battles corporate zombies, 
-      an evil sorceress, and her own childhood to become queen 
-      of the world.</description>
-   </book>
-   <book id="bk103">
-      <author>Corets, Eva</author>
-      <title>Maeve Ascendant</title>
-      <genre>Fantasy</genre>
-      <price>5.95</price>
-      <publish_date>2000-11-17</publish_date>
-      <description>After the collapse of a nanotechnology 
-      society in England, the young survivors lay the 
-      foundation for a new society.</description>
-   </book>
-   <book id="bk104">
-      <author>Corets, Eva</author>
-      <title>Oberon's Legacy</title>
-      <genre>Fantasy</genre>
-      <price>5.95</price>
-      <publish_date>2001-03-10</publish_date>
-      <description>In post-apocalypse England, the mysterious 
-      agent known only as Oberon helps to create a new life 
-      for the inhabitants of London. Sequel to Maeve 
-      Ascendant.</description>
-   </book>
-   <book id="bk105">
-      <author>Corets, Eva</author>
-      <title>The Sundered Grail</title>
-      <genre>Fantasy</genre>
-      <price>5.95</price>
-      <publish_date>2001-09-10</publish_date>
-      <description>The two daughters of Maeve, half-sisters, 
-      battle one another for control of England. Sequel to 
-      Oberon's Legacy.</description>
-   </book>
-   <book id="bk106">
-      <author>Randall, Cynthia</author>
-      <title>Lover Birds</title>
-      <genre>Romance</genre>
-      <price>4.95</price>
-      <publish_date>2000-09-02</publish_date>
-      <description>When Carla meets Paul at an ornithology 
-      conference, tempers fly as feathers get ruffled.</description>
-   </book>
-   <book id="bk107">
-      <author>Thurman, Paula</author>
-      <title>Splish Splash</title>
-      <genre>Romance</genre>
-      <price>4.95</price>
-      <publish_date>2000-11-02</publish_date>
-      <description>A deep sea diver finds true love twenty 
-      thousand leagues beneath the sea.</description>
-   </book>
-   <book id="bk108">
-      <author>Knorr, Stefan</author>
-      <title>Creepy Crawlies</title>
-      <genre>Horror</genre>
-      <price>4.95</price>
-      <publish_date>2000-12-06</publish_date>
-      <description>An anthology of horror stories about roaches,
-      centipedes, scorpions  and other insects.</description>
-   </book>
-   <book id="bk109">
-      <author>Kress, Peter</author>
-      <title>Paradox Lost</title>
-      <genre>Science Fiction</genre>
-      <price>6.95</price>
-      <publish_date>2000-11-02</publish_date>
-      <description>After an inadvertant trip through a Heisenberg
-      Uncertainty Device, James Salway discovers the problems 
-      of being quantum.</description>
-   </book>
-   <book id="bk110">
-      <author>O'Brien, Tim</author>
-      <title>Microsoft .NET: The Programming Bible</title>
-      <genre>Computer</genre>
-      <price>36.95</price>
-      <publish_date>2000-12-09</publish_date>
-      <description>Microsoft's .NET initiative is explored in 
-      detail in this deep programmer's reference.</description>
-   </book>
-   <book id="bk111">
-      <author>O'Brien, Tim</author>
-      <title>MSXML3: A Comprehensive Guide</title>
-      <genre>Computer</genre>
-      <price>36.95</price>
-      <publish_date>2000-12-01</publish_date>
-      <description>The Microsoft MSXML3 parser is covered in 
-      detail, with attention to XML DOM interfaces, XSLT processing, 
-      SAX and more.</description>
-   </book>
-   <book id="bk112">
-      <author>Galos, Mike</author>
-      <title>Visual Studio 7: A Comprehensive Guide</title>
-      <genre>Computer</genre>
-      <price>49.95</price>
-      <publish_date>2001-04-16</publish_date>
-      <description>Microsoft Visual Studio 7 is explored in depth,
-      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
-      integrated into a comprehensive development 
-      environment.</description>
-   </book>
-</catalog>
-
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Light>
+    <Item Name="LightBath2" 	Position="-4.81,4.11,-7.82" 	Rotation="0,0,0" Dimension="1,1,1" Intensity="0.4"	Range="38.52" 	typeLight="Point" GUID="ciaoLuce1"/>
+	<Item Name="LightBedRoom" 	Position="-10.46,4.11,-5.71" 	Rotation="0,0,0" Dimension="1,1,1" Intensity="1" 	Range="38.52" 	typeLight="Point" GUID="ciaoLuce2"/>
+	<Item Name="LightOffice" 	Position="-10.46,4.11,4.95" 	Rotation="0,0,0" Dimension="1,1,1" Intensity="0.6" 	Range="38.52" 	typeLight="Point" GUID="ciaoLuce3"/>
+	<Item Name="LightBath1" 	Position="-4.61,4.11,4.95" 		Rotation="0,0,0" Dimension="1,1,1" Intensity="0.6" 	Range="10" 		typeLight="Point" GUID="ciaoLuce4"/>
+	<Item Name="LightKitchen" 	Position="1.26,4.11,-5.73" 		Rotation="0,0,0" Dimension="1,1,1" Intensity="0.4" 	Range="38.52" 	typeLight="Point" GUID="D2935D9E-0872-4999-8B52-BFB3F1794596"/>
+	<Item Name="LightLiving" 	Position="1.06,4.11,2.78" 		Rotation="0,0,0" Dimension="1,1,1" Intensity="0.5" 	Range="38.52" 	typeLight="Point" GUID="CD5BFC98-1C19-4E52-9338-D687565BC75A"/>
+  </Light>
+  <Prefab>
+    <Item Name="picture" Position="-6.7,2.85,7.48" Rotation="270,179.1657,0" Dimension="0.01562541,0.01562541,0.01562541" Resource="picture" />
+    <Item Name="lamp" Position="-13.63,1.72,-2.91" Rotation="6.830189E-06,0,0" Dimension="0.04703474,0.04703474,0.04703474" Resource="lamp" />
+    <Item Name="lampVertical" Position="-7.81,4.77,6.75" Rotation="270,0,0" Dimension="0.01,0.01,0.01" Resource="lampVertical" />
+    <Item Name="Door" Position="-4.03,0.27,-10.44" Rotation="270,0,0" Dimension="0.006519005,0.01420684,0.01420684" Resource="Door" />
+    <Item Name="rack" Position="-8.89,1.216,7.5" Rotation="270,0,0" Dimension="0.001236743,0.001236743,0.001236743" Resource="rack" />
+    <Item Name="Door" Position="-10.14,0.27,-10.36" Rotation="270,0,0" Dimension="0.01420684,0.01420684,0.01420684" Resource="Door" />
+    <Item Name="Door" Position="-3.2,1.57,9.59" Rotation="270,0,0" Dimension="0.00921118,0.01420684,0.006895109" Resource="Door" />
+    <Item Name="Door" Position="1.96,0.27,9.29" Rotation="270,0,0" Dimension="0.01420684,0.01420684,0.01420684" Resource="Door" />
+    <Item Name="Door" Position="-11.04,0.27,9.34" Rotation="270,0,0" Dimension="0.01420684,0.01420684,0.01420684" Resource="Door" />
+    <Item Name="Door" Position="2.52,0.27,-10.37" Rotation="270,0,0" Dimension="0.01420684,0.01420684,0.01420684" Resource="Door" />
+    <Item Name="printer" Position="-9.05,1.56,7.792" Rotation="270,90.00002,0" Dimension="0.008087758,0.008087758,0.008087758" Resource="printer" />
+    <Item Name="picture" Position="5.89,2.87,7.03" Rotation="270,179.4389,0" Dimension="0.01474699,0.014747,0.014747" Resource="picture" />
+    <Item Name="chair" Position="-7.98,0.42,7.55" Rotation="-5.87294E-06,210.7002,-3.487129E-06" Dimension="1,1,1" Resource="chair" />
+    <Item Name="sofa2" Position="5.69,0.054076,7.41" Rotation="0,180,0" Dimension="0.03738836,0.03738836,0.03738836" Resource="sofa2" />
+    <Item Name="lamp" Position="-13.44,1.72,-9.2" Rotation="6.830189E-06,0,0" Dimension="0.04703474,0.04703474,0.04703474" Resource="lamp" />
+    <Item Name="Singledoor" Position="-11.14,3.3,-0.03" Rotation="90,90.00002,0" Dimension="0.01257214,0.01257214,0.01257214" Resource="Singledoor" />
+    <Item Name="Singledoor" Position="4.65,3.3,-1.02" Rotation="90,0,0" Dimension="0.01257214,0.01257214,0.01612502" Resource="Singledoor" />
+    <Item Name="PC" Position="-8.743847,1.23,6.705" Rotation="270,0,0" Dimension="0.01510584,0.01027568,0.02287307" Resource="PC" />
+    <Item Name="FPSController" Position="4.366144,2.72,1.7" Rotation="0,0,0" Dimension="1,1,1" Resource="FPSController" />
+    <Item Name="kitchen" Position="-0.64,0.2,-7.94" Rotation="270,179.558,0" Dimension="0.03285052,0.03285052,0.03285052" Resource="kitchen" />
+    <Item Name="desk2" Position="-9.24,0.21,6.14" Rotation="270,0,0" Dimension="0.01232847,0.01232847,0.01232847" Resource="desk2" />
+    <Item Name="sink2" Position="-2.76,1.365,4.52" Rotation="270,90.00002,0" Dimension="0.9658267,1.064758,1.844286" Resource="sink2" />
+    <Item Name="wc" Position="-2.79,1.22,7.31" Rotation="270,180,0" Dimension="0.007316099,0.008033915,0.006383824" Resource="wc" />
+    <Item Name="guardaroba" Position="-6.73,0.24,-4.06" Rotation="270,270,0" Dimension="0.01767395,0.02796369,0.02209138" Resource="guardaroba" />
+    <Item Name="bathtub" Position="-4.43,0.69,8.66" Rotation="270,90.00002,0" Dimension="0.1708328,0.1708329,0.2268374" Resource="bathtub" />
+    <Item Name="library" Position="-13.99,0.27,4.19" Rotation="270,90.00002,0" Dimension="0.8258579,0.8258579,0.8258579" Resource="library" />
+    <Item Name="cabinet" Position="-3.14,0.66,4.48" Rotation="270,90.00002,0" Dimension="0.5381277,0.4153133,0.4153133" Resource="cabinet" />
+    <Item Name="comodino" Position="-13.53,0.80527,-9.15" Rotation="0,90.00001,0" Dimension="0.2112548,0.2112548,0.1538417" Resource="comodino" />
+    <Item Name="sink2" Position="-2.74,1.3123,-8.77" Rotation="270,90.00002,0" Dimension="0.7373314,0.8128587,1.407965" Resource="sink2" />
+    <Item Name="wc" Position="-2.93,1.1978,-7.17" Rotation="270,180,0" Dimension="0.005585256,0.006133252,0.004873538" Resource="wc" />
+    <Item Name="bidet" Position="-3.18,0.24,6.02" Rotation="270,270.0001,0" Dimension="0.0476193,0.04761929,0.04315664" Resource="bidet" />
+    <Item Name="shelf2" Position="-0.97,0.72,9.38" Rotation="270,180,0" Dimension="0.0007920422,0.001674265,0.001674265" Resource="shelf2" />
+    <Item Name="bathroom-mirror" Position="-2.6,2.0399,4.43" Rotation="270,0,0" Dimension="0.7318743,0.7318743,0.7318743" Resource="bathroom-mirror" />
+    <Item Name="armChair" Position="-13.07,0.48073,8.43" Rotation="270,110.525,0" Dimension="0.01000717,0.01000717,0.01000717" Resource="armChair" />
+    <Item Name="shower" Position="-5.34,0.27,-5.88" Rotation="270,179.7031,0" Dimension="0.001112361,0.001112361,0.001773139" Resource="shower" />
+    <Item Name="scaffale" Position="-11.53,1.26,-1.87" Rotation="90,0,0" Dimension="0.2220484,0.1613963,0.1613963" Resource="scaffale" />
+    <Item Name="sofa" Position="-11.77,0.41,1.1" Rotation="3.910126E-07,181.2001,180" Dimension="-0.03753202,-0.03753202,-0.03753202" Resource="sofa" />
+    <Item Name="tableChair" Position="-2,0.17,-3.58" Rotation="0,0,0" Dimension="0.002138481,0.001776334,0.001776334" Resource="tableChair" />
+    <Item Name="myHouse" Position="-4.02,2.85,-0.56" Rotation="270,270.0001,0" Dimension="-9.43197,-9.501248,-2.523052" Resource="myHouse" />
+    <Item Name="bed" Position="-14.147,0.64,-6.02" Rotation="0,90.00001,0" Dimension="0.01884884,0.01884884,0.01884884" Resource="bed" />
+    <Item Name="comodino" Position="-13.62,0.80527,-2.85" Rotation="0,90.00001,0" Dimension="0.2112548,0.2112548,0.1538417" Resource="comodino" />
+	<Item Name="Tetto" Position="-5.13,5,0" Rotation="0,0,90" Dimension="0.2249195,11.98062,10.85972" Resource="Tetto" />
+  </Prefab>
+  <SmartObject>
+    <Item Name="speaker" Position="-6.79,0.35,3.4" 		Rotation="0,270.0001,0" Dimension="0.8920944,0.9397066,0.7836711" Resource="speaker" GUID="ciao1" />
+    <Item Name="LG_TV" 	 Position="-11.55,2.09,-1.45" 	Rotation="90,90.00002,0" Dimension="-0.04790901,-0.04790903,-0.04790903" Resource="LG_TV" GUID="ciao2" />
+    <Item Name="clima" 	 Position="-12.7,4.06,-9.78" 	Rotation="90,90.00002,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="cio3" />
+    <Item Name="clima" 	 Position="4.41,3.57,8.9135" 	Rotation="90,270.0001,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="29EBD4E6-54B7-4EFA-B843-ED57BEFA4669" />
+    <Item Name="LG_TV" 	 Position="-2.36,0.96,4.89" 	Rotation="90,0,0" Dimension="-0.09756631,-0.0975663,-0.09756632" Resource="LG_TV" GUID="FDC74BA9-18CB-42D3-B6C0-52446422CE03" />
+    <Item Name="Fan" 	 Position="-0.2201,1.7099,9.119" Rotation="0,50,0" Dimension="0.59,0.59,0.59" Resource="Fan" GUID="DD3ACED8-B6F0-4A20-9A9B-CA5972FC9086" />
+	<Item Name="clima" 	 Position="-4.31,4.06,-2.15" 	Rotation="90,270.0001,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao4" />
+    <Item Name="heater"  Position="2.96,0.35,-1.77" 	Rotation="270,179.5798,0" Dimension="0.001686219,0.001686219,0.001686219" Resource="heater" GUID="C5A498CD-DC61-41E7-BD01-C3680AB83D12" />
+    <Item Name="clima" 	 Position="-11.9152,3.83,1.96" 	Rotation="90,90.00002,0" Dimension="-0.002389403,-0.002389403,-0.002389403" Resource="clima" GUID="ciao5" />
+    <Item Name="LG_TV" 	 Position="3.53,1.46,-2.18" 	Rotation="90,139.6584,0" Dimension="-0.05624397,-0.05624397,-0.05624399" Resource="LG_TV" GUID="FF77833D-8E52-460D-835D-29ABD1AD7DF9" />
+    <Item Name="speaker" Position="-1.944,0.36,6.13" 	Rotation="0,90.00001,0" Dimension="2.08253,1.242361,1.242361" Resource="speaker" GUID="8AE2FEB4-7D9F-4133-BCA9-9AF448B2E195" />
+  </SmartObject>
+</Scene>

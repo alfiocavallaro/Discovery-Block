@@ -51,6 +51,11 @@
 	foi:hasMethod "SET";
 	foi:hasMethod "SWITCH".
 	
+:Light a dbpedia:Light;
+	foi:hasFOI dbpedia:Light;
+	foi:hasMethod "GET";
+	foi:hasMethod "SWITCH".
+	
 dbpedia:Hot foi:effectOnFOI ">".
 dbpedia:Cold foi:effectOnFOI "<".
 	

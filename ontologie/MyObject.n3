@@ -37,3 +37,14 @@
 	:isIn :LivingRoom;
 	:hasUrl 'http://localhost:3003/MyStereo';
 	:hasGuid '8AE2FEB4-7D9F-4133-BCA9-9AF448B2E195'.
+	
+:MyLight1 :isA :Light;
+	:isIn :LivingRoom;
+	:hasUrl 'http://localhost:3003/MyLightLiving';
+	:hasGuid 'CD5BFC98-1C19-4E52-9338-D687565BC75A'.	
+	
+:MyLight2 :isA :Light;
+	:isIn :Kitchen;
+	:hasUrl 'http://localhost:3003/MyLightKitchen';
+	:hasGuid 'D2935D9E-0872-4999-8B52-BFB3F1794596'.
+	
