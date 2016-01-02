@@ -24,6 +24,7 @@ exports.reason = function(query, res){
 				console.log(error);
 				return;
 			}else console.log(stdout);
+			
 			formattingEyeResponse(stdout, function(responseClean){
 				res.send(responseClean);
 			});
